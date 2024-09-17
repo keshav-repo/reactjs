@@ -1,10 +1,10 @@
 import Component3 from "./Component3";
 
-function Component2({counter}){
+function Component2(){
     return (
         <>
-          <h3>In component 2: {counter}</h3>
-          <Component3 counter={counter}/>
+          <h3>In component 2:</h3>
+          <Component3/>
         </>
     )
 }
