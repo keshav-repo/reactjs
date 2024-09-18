@@ -2,6 +2,8 @@ import { useState } from "react";
 import Component1 from "./component/Component1";
 import { counterContext } from "./context/Context";
 
+import ProductDetails from "./component/Product";
+
 function App() {
   const [counter, setCounter] = useState(0);
 
@@ -12,6 +14,8 @@ function App() {
         <button onClick={() => setCounter(counter + 1)}>Increment</button>
         <Component1 />
       </counterContext.Provider>
+
+      <ProductDetails productId={2} />
     </>
   );
 }
