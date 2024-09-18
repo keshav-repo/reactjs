@@ -12,6 +12,8 @@ import Trans from "./component/Trans";
 import WithoutTrans from "./component/withoutTrans";
 import DefferedComponent from "./component/DefferedDemo";
 
+import Form from "./component/Form";
+
 function App() {
   const [counter, setCounter] = useState(0);
 
@@ -35,7 +37,9 @@ function App() {
 
       {/* <WithoutTrans /> */}
 
-      <DefferedComponent />
+      {/* <DefferedComponent /> */}
+
+      <Form />
 
     </>
   );
